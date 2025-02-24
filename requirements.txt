@@ -1,0 +1,177 @@
+absl-py==1.2.0
+advertorch @ git+https://github.com/BorealisAI/advertorch.git@e063e341c87d9a621ae1a8f72c3507d5ea5bd327
+anykeystore==0.2
+apex==0.9.10.dev0
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asttokens==2.0.5
+attrs==21.4.0
+backcall==0.2.0
+beautifulsoup4==4.11.1
+bleach==5.0.1
+blessed==1.19.1
+brotlipy==0.7.0
+cachetools==5.2.0
+certifi @ file:///opt/conda/conda-bld/certifi_1655968806487/work/certifi
+cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+cryptacular==1.6.2
+cryptography @ file:///tmp/build/80754af9/cryptography_1652101588893/work
+cycler==0.11.0
+debugpy==1.6.3
+decorator==5.1.1
+defusedxml==0.7.1
+eagerpy @ file:///home/conda/feedstock_root/build_artifacts/eagerpy_1597663622327/work
+einops==0.4.1
+entrypoints==0.4
+executing==0.8.3
+fastjsonschema==2.16.1
+filelock==3.8.0
+fonttools==4.34.3
+foolbox @ file:///home/conda/feedstock_root/build_artifacts/foolbox_1601295353283/work
+gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1635085722655/work
+GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1645531658201/work
+google-auth==2.11.0
+google-auth-oauthlib==0.4.6
+gpustat==1.0.0
+greenlet==1.1.2
+grpcio==1.47.0
+huggingface-hub==0.9.1
+hupper==1.10.3
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+imageio==2.21.1
+importlib-metadata==4.12.0
+install==1.3.5
+ipdb==0.13.9
+ipykernel==6.15.1
+ipython==8.4.0
+ipython-genutils==0.2.0
+ipywidgets==8.0.1
+jb==1.0.0
+jedi==0.18.1
+Jinja2==3.1.2
+joblib==1.1.0
+jsonschema==4.14.0
+jupyter==1.0.0
+jupyter-client==7.3.4
+jupyter-console==6.4.4
+jupyter-core==4.11.1
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.2
+kiwisolver==1.4.3
+lmdb==1.3.0
+lxml==4.9.1
+Markdown==3.4.1
+MarkupSafe==2.1.1
+matplotlib==3.5.2
+matplotlib-inline==0.1.3
+mistune==0.8.4
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
+mkl-service==2.4.0
+munch==2.5.0
+nbclient==0.6.6
+nbconvert==6.5.3
+nbformat==5.4.0
+nest-asyncio==1.5.5
+networkx==2.8.5
+notebook==6.4.12
+numpy @ file:///opt/conda/conda-bld/numpy_and_numpy_base_1652801679809/work
+nvidia-ml-py==11.495.46
+oauthlib==3.2.0
+olympic==0.1.5
+opencv-python==4.6.0.66
+packaging==21.3
+pandas==1.4.3
+pandocfilters==1.5.0
+parso==0.8.3
+PasteDeploy==2.1.1
+patsy==0.5.2
+pbkdf2==1.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.0.1
+plaster==1.0
+plaster-pastedeploy==0.7
+pretrainedmodels==0.7.4
+prettytable==3.4.0
+prometheus-client==0.14.1
+prompt-toolkit==3.0.30
+protobuf==3.19.4
+psutil==5.9.1
+ptyprocess==0.6.0
+pure-eval==0.2.2
+pyarrow==9.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.12.0
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.0.9
+pyramid==2.0
+pyramid-mailer==0.15.1
+pyrsistent==0.18.1
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil==2.8.2
+python3-openid==3.2.0
+pytz==2022.1
+PyWavelets==1.3.0
+PyYAML==6.0
+pyzmq==23.2.1
+qtconsole==5.3.1
+QtPy==2.2.0
+regex==2022.8.17
+repoze.sendmail==4.4.1
+requests @ file:///opt/conda/conda-bld/requests_1656438147783/work
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-image==0.19.3
+scikit-learn==1.1.1
+scipy==1.8.1
+seaborn==0.11.2
+Send2Trash==1.8.0
+setGPU==0.0.7
+six==1.12.0
+smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1611376390914/work
+soupsieve==2.3.2.post1
+SQLAlchemy==1.4.39
+stack-data==0.3.0
+statsmodels==0.13.2
+tensorboard==2.10.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+terminado==0.15.0
+threadpoolctl==3.1.0
+tifffile==2022.8.8
+timm==0.6.5
+tinycss2==1.1.1
+tokenizers==0.12.1
+toml==0.10.2
+torch==2.1.0.dev20230423+cu117
+torchaudio==2.1.0.dev20230423+cu117
+torchmetrics==0.10.0
+torchtoolbox==0.1.8.2
+torchvision==0.16.0.dev20230423+cu117
+tornado==6.2
+tqdm @ file:///opt/conda/conda-bld/tqdm_1650891076910/work
+traitlets==5.3.0
+transaction==3.0.1
+transformers==4.21.2
+translationstring==1.4
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+urllib3 @ file:///opt/conda/conda-bld/urllib3_1650639997961/work
+velruse==1.1.1
+venusian==3.0.0
+wcwidth==0.1.7
+webencodings==0.5.1
+WebOb==1.8.7
+Werkzeug==2.2.2
+widgetsnbextension==4.0.2
+WTForms==3.0.1
+wtforms-recaptcha==0.3.2
+yacs==0.1.8
+zipp==3.8.1
+zope.deprecation==4.4.0
+zope.interface==5.4.0
+zope.sqlalchemy==1.6
+kornia==0.6.12

@@ -1,0 +1,5 @@
+log.*
+*.log
+*.slurm
+*.pyc
+*.csv
