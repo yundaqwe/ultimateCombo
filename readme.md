@@ -46,7 +46,7 @@ python attack.py --method admix_DI_TI_FGSM --batch_size 2
 ```bash
 python attack.py --method grid_search{ordernumber} --batch_size 2
 ```
-Where `orderednumber` is the decimal representation of a 6-bit string, where 0 indicates excluding an augmentation method, and 1 indicates including it, for the following augmentation methods: greyscale, cutout, neural transfer, sharpening, autoaugment, and DTS (in this specific order). For example,. 
+Where `orderednumber` is the decimal representation of a 6-bit string, where 0 indicates excluding an augmentation method, and 1 indicates including it, for the following augmentation methods: greyscale, cutout, neural transfer, sharpening, autoaugment, and DTS (in this specific order). For example, when ordernumber is 55, which can be converted to 110111, meaning we include greyscale, cutout, sharpening,autoaugment, DTS into combo (neural transfer is excluded).
 
 6.	To run the    $UltimateCombo_{gen}$:
 
