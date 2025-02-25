@@ -1,6 +1,6 @@
 # The Ultimate Combo: Boosting Adversarial Example Transferability by Composing Data Augmentations
 
-This repo was put together to help reproduce the results of our AISec'24 paper (https://arxiv.org/abs/2312.11309). We use parallel composition method to integrate as many augmentation methods as possible to improve the transferability of adversarial examples. We also propose a new method called Admix, which can be used to combine different augmentation methods to boost adversarial example transferability.
+This repo was put together to help reproduce the results of our AISec'24 paper (https://arxiv.org/abs/2312.11309). We use parallel composition method to integrate as many augmentation methods as possible to improve the transferability of adversarial examples. We also propose a new method called Ultimate Combo, which can be used to combine different augmentation methods to boost adversarial example transferability.
 
 ![demo](combo.jpg)
 ## Dependencies
@@ -46,7 +46,7 @@ python attack.py --method admix_DI_TI_FGSM --batch_size 2
 ```bash
 python attack.py --method grid_search{ordernumber} --batch_size 2
 ```
-Where `orderednumber` is the decimal representation of a 6-bit string, where 0 indicates excluding an augmentation method, and 1 indicates including it, for the following augmentation methods: greyscale, cutout, neural transfer, sharpening, autoaugment, and DTS (in this specific order). 
+Where `orderednumber` is the decimal representation of a 6-bit string, where 0 indicates excluding an augmentation method, and 1 indicates including it, for the following augmentation methods: greyscale, cutout, neural transfer, sharpening, autoaugment, and DTS (in this specific order). For example,. 
 
 6.	To run the    $UltimateCombo_{gen}$:
 
