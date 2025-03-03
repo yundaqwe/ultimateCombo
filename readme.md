@@ -69,7 +69,7 @@ Command 8 is used to generated table 3.
 
 9. To perform these attacks on cifar-10,   use option --dataset=cifar-10, this command is  used to generate Table 5.
 10. To  perform individual augmentations composed with DST (figures in table 1), please siwtch --method to 'CS-DST' , 'CJ-DST' and 'fPCA-DST', "RE-DST", "CutMix-DST", "CutOut-DST","NeuTrans-DST", "Sharp-DST", " AutoAugment-DST" accordingly.
-11. use 'max_epsilon' to perform attack under other constraints (e.g., 8/255 or 32/255),  which is used to generate Table 8.
+11. use '--max_epsilon' option to adjust eposilon hyperparameter, thereby performing attack under other constraints (e.g., --max_epsilon 8 or --max_epsilon 32),  which is used to generate Table 8.
 12. To assess attack success rate against defense model, we take code from [Bit-Red](https://github.com/mzweilin/EvadeML-Zoo), [NRP](https://github.com/Muzammal-Naseer/NRP), [RS](https://github.com/locuslab/smoothing) and [ARS](https://github.com/Hadisalman/smoothing-adversarial). To test it, we generate adversarial examples and save it firstly, then feed it into these defense models.
 
 
